@@ -1,54 +1,131 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/output.css" rel="stylesheet">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-</head>
-<body class="bg-dark text-white mx-10 md:mx-20 mt-10">
-    <header class="flex  align-middle justify-between items-center ">
-  <div>
-    <img width="150" src="./assets/logo.JPG" alt="">
-  </div>
-  <div>
-   <button class="bg-green-700 px-4 py-2">Sign in</button> 
-  </div>
-</header>
-<section class="w-full h-96 bg-no-repeat bg-cover mt-10"style="background-image: url('./assets/background.webp');">
-    <div class="w-full h-full  justify-center items-center backdrop-brightness-50 flex flex-col gap-3">
-        <span class="text-white lg:text-6xl md:text-4xl font-bold ">
-      Unlimited movies, TV shows, and more </span>
-      <span class="font-medium lg:text-4xl">Plans now start at USD2.99/month.</span>
-      <span class="font-medium  lg:text-3xl"> Ready to watch? Enter your email to create or restart your membership.</span>
-      <div class="flex gap-4">
-        <input class="lg:w-80 h-14 bg-[#211C1B]  border-2 border-white placeholder:text-gray-200 pl-[14px] rounded" placeholder="Enter email address">
-        <button class="px-7 py-4 bg-green-700 rounded">Get started</button>
-      </div>
-</div>
-</section>
-<section class="mt-10 md:flex items-center justify-between">
-  <div class="flex flex-col gap-3" data-aos="fade-right">
-   <p class="text-4xl font-bold">Enjoy on your TV</p>
-   <p class="text-xl">Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
-  </div>
-  <div data-aos="fade-up">
-  <img src="./assets/item1.JPG" alt="">
-  </div>
-</section>
-<section class="mt-10 md:flex md:flex-row-reverse items-center justify-between">
-  <div class="flex flex-col gap-3" data-aos="fade-up">
-   <p class="text-4xl font-bold">Enjoy on your TV</p>
-   <p class="text-xl">Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
-  </div>
-  <div data-aos="fade-up">
-  <img src="./assets/item2.JPG" alt="">
-  </div>
-</section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hi this website holds only videos that are captured by tazim"
+    />
+    <!--OGP-->
+    <meta property="og:title" content="TFLIX WITH TAZIM" />
+    <meta property="og:description" content="This website contains only video" />
+    <meta property="og:image" content="./assets/logo.JPG" />
+    <meta property="og:url" content="https//www.tflix.com" />
+    <meta property="og:type" content="website" />
 
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
-</body>
+
+    <link href="/output.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>TFLIX | Render</title>
+  </head>
+  <body class="bg-dark text-white mx-10 md:mx-20 mt-10">
+    <header class="flex align-middle justify-between items-center">
+      <div>
+        <img width="150" src="./assets/logo.JPG" alt="" />
+      </div>
+      <div>
+        <button class="bg-green-700 px-4 py-2">Sign in</button>
+      </div>
+    </header>
+    <section
+      class="w-full h-96 bg-no-repeat bg-cover mt-10"
+      style="background-image: url('./assets/background.webp')"
+    >
+      <div
+        class="w-full h-full justify-center items-center backdrop-brightness-50 flex flex-col gap-3"
+      >
+        <span class="text-white lg:text-6xl md:text-4xl font-bold">
+          Unlimited movies, TV shows, and more
+        </span>
+        <span class="font-medium lg:text-4xl"
+          >Plans now start at USD2.99/month.</span
+        >
+        <span class="font-medium lg:text-3xl">
+          Ready to watch? Enter your email to create or restart your
+          membership.</span
+        >
+        <div class="flex gap-4">
+          <input
+            class="lg:w-80 h-14 bg-[#211C1B] border-2 border-white placeholder:text-gray-200 pl-[14px] rounded"
+            placeholder="Enter email address"
+          />
+          <button class="px-7 py-4 bg-green-700 rounded">Get started</button>
+        </div>
+      </div>
+    </section>
+    <section class="mt-10 md:flex items-center justify-between">
+      <div
+        class="flex flex-col gap-3"
+        data-aos="fade-up"
+        data-aos-duration="3000"
+      >
+        <p class="text-4xl font-bold">Enjoy on your TV</p>
+        <p class="text-xl">
+          Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray
+          players, and more.
+        </p>
+      </div>
+      <div data-aos="fade-up" data-aos-duration="3000">
+        <img src="./assets/item1.JPG" alt="" />
+      </div>
+    </section>
+    <section
+      class="mt-10 md:flex md:flex-row-reverse items-center justify-between"
+    >
+      <div
+        class="flex flex-col gap-3"
+        data-aos="fade-up"
+        data-aos-duration="3000"
+      >
+        <p class="text-4xl font-bold">Download your shows to watch offline</p>
+        <p class="text-xl">
+          Save your favorites easily and always have something to watch.
+        </p>
+      </div>
+      <div data-aos="fade-up" data-aos-duration="3000">
+        <img src="./assets/item2.JPG" alt="" />
+      </div>
+    </section>
+
+    <section class="mt-10 md:flex items-center justify-between">
+      <div
+        class="flex flex-col gap-3"
+        data-aos="fade-up"
+        data-aos-duration="3000"
+      >
+        <p class="text-4xl font-bold">Create profiles for kids</p>
+        <p class="text-xl">
+          Send kids on adventures with their favorite characters in a space made
+          just for them—free with your membership.
+        </p>
+      </div>
+      <div data-aos="fade-up" data-aos-duration="3000">
+        <img src="./assets/item3.JPG" alt="" />
+      </div>
+    </section>
+    <section
+      class="mt-10 md:flex md:flex-row-reverse items-center justify-between"
+    >
+      <div
+        class="flex flex-col gap-3"
+        data-aos="fade-up"
+        data-aos-duration="3000"
+      >
+        <p class="text-4xl font-bold">Enjoy on your TV</p>
+        <p class="text-xl">
+          Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray
+          players, and more.
+        </p>
+      </div>
+      <div data-aos="fade-up" data-aos-duration="3000">
+        <img src="./assets/item2.JPG" alt="" />
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
